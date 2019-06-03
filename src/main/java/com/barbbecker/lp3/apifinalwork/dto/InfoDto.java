@@ -1,4 +1,4 @@
-package com.barbbecker.lp3.apitrabalhofinal.dto;
+package com.barbbecker.lp3.apifinalwork.dto;
 
 public class InfoDto {
 

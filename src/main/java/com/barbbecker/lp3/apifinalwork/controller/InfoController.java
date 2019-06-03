@@ -1,7 +1,7 @@
-package com.barbbecker.lp3.apitrabalhofinal.controller;
+package com.barbbecker.lp3.apifinalwork.controller;
 
-import com.barbbecker.lp3.apitrabalhofinal.Service.InfoService;
-import com.barbbecker.lp3.apitrabalhofinal.dto.InfoDto;
+import com.barbbecker.lp3.apifinalwork.service.InfoService;
+import com.barbbecker.lp3.apifinalwork.dto.InfoDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

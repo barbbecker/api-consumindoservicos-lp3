@@ -1,6 +1,6 @@
-package com.barbbecker.lp3.apitrabalhofinal.Service;
+package com.barbbecker.lp3.apifinalwork.service;
 
-import com.barbbecker.lp3.apitrabalhofinal.dto.InfoDto;
+import com.barbbecker.lp3.apifinalwork.dto.InfoDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

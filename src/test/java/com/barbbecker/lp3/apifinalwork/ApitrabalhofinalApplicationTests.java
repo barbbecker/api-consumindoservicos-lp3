@@ -1,4 +1,4 @@
-package com.barbbecker.lp3.apitrabalhofinal;
+package com.barbbecker.lp3.apifinalwork;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

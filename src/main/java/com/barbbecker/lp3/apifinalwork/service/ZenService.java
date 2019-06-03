@@ -1,6 +1,6 @@
-package com.barbbecker.lp3.apitrabalhofinal.Service;
+package com.barbbecker.lp3.apifinalwork.service;
 
-import com.barbbecker.lp3.apitrabalhofinal.dto.ZenDto;
+import com.barbbecker.lp3.apifinalwork.dto.ZenDto;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
