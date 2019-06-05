@@ -5,19 +5,13 @@ import java.util.List;
 
 public class SecretDto {
 
-    private String user;
-    private String data_secret;
-    private List<FriendsDto> friends;
+    private List<ErrorsDto> errorsDtos;
 
     public SecretDto() {
-        friends = new ArrayList<>();
+        errorsDtos = new ArrayList<>();
     }
 
-    public String getUser() {
-        return user;
-    }
-
-    public String getData_secret() {
-        return data_secret;
+    public List<ErrorsDto> getErrorsDtos() {
+        return errorsDtos;
     }
 }
