@@ -4,6 +4,7 @@ public class InfoDto {
 
     private ZenDto zenDto;
     private WheatherDto wheatherDto;
+    private SecretDto secretDto;
 
     public ZenDto getZenDto() {
         return zenDto;
@@ -19,5 +20,13 @@ public class InfoDto {
 
     public void setWheatherDto(WheatherDto wheatherDto) {
         this.wheatherDto = wheatherDto;
+    }
+
+    public SecretDto getSecretDto() {
+        return secretDto;
+    }
+
+    public void setSecretDto(SecretDto secretDto) {
+        this.secretDto = secretDto;
     }
 }
