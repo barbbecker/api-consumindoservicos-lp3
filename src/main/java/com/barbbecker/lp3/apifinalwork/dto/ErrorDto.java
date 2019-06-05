@@ -1,9 +1,9 @@
 package com.barbbecker.lp3.apifinalwork.dto;
 
-public class ErrorsDto {
+public class ErrorDto {
 
     private String status;
-    private SourceDto sourceDto;
+    private SourceDto source;
     private String detail;
     private String title;
 
@@ -12,8 +12,8 @@ public class ErrorsDto {
         return status;
     }
 
-    public SourceDto getSourceDto() {
-        return sourceDto;
+    public SourceDto getSource() {
+        return source;
     }
 
     public String getDetail() {

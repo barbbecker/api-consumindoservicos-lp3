@@ -5,13 +5,13 @@ import java.util.List;
 
 public class SecretDto {
 
-    private List<ErrorsDto> errorsDtos;
+    private List<ErrorDto> errors;
 
     public SecretDto() {
-        errorsDtos = new ArrayList<>();
+        errors = new ArrayList<>();
     }
 
-    public List<ErrorsDto> getErrorsDtos() {
-        return errorsDtos;
+    public List<ErrorDto> getErrors() {
+        return errors;
     }
 }

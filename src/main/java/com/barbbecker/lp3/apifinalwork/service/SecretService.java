@@ -20,8 +20,8 @@ public class SecretService {
 
     public SecretService() {
         restTemplate = new RestTemplate();
-        this.user = "";
-        this.password = "";
+        this.user = "barbara";
+        this.password = "3s5$3ldmaflk88";
     }
 
     public SecretDto getSecret() {
